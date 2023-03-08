@@ -24,6 +24,7 @@ public class Movie {
     private String poster;
     private List<String> genres;
     private List<String> backdrops;
+
     @DocumentReference //Nifty Annotation
     private List<Review> reviewIds;
 
